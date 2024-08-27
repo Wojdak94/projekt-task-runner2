@@ -1,0 +1,122 @@
+/*Menu*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: "Inconsolata";
+  background-color: aliceblue;
+}
+
+.container {
+  background-image: url(https://i.postimg.cc/VNnybySC/pexels-marius-mann-772581-1697218.jpg);
+  height: 700px;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container div {
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  color: rgb(251, 252, 253);
+}
+.title h2 {
+  font-size: 55px;
+}
+
+.container2 {
+  background-color: whitesmoke;
+  min-height: 600px;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  padding: 80px 0 80px;
+}
+.text h4 {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container2 .card {
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.container2 .card i {
+  font-size: 40px;
+  color: darkgoldenrod;
+}
+
+.products img {
+  height: 15vh;
+  width: 15vh;
+}
+.products ul button {
+  margin-top: 10px;
+}
+
+.portfolio {
+  background-color: rgb(194, 194, 194);
+}
+.portfolio .card {
+  background-color: rgb(194, 194, 194);
+}
+.portfolio .card img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.portfolio .card-body {
+  text-align: center;
+  background-color: rgb(219, 218, 218);
+}
+
+.icons {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons i {
+  margin-left: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright i {
+  margin-right: 5px;
+}
+
+.foot {
+  background-color: rgb(194, 194, 194);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZQSxPQUFBO0FBRUE7RUFDSSxTQUFBO0VBQ0EsVUFBQTtFQUNBLHNCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0EsMEJBQUE7RUFDQSwyQkFBQTtBQ1pKOztBRGVBO0VBQ0ksMEZBQUE7RUFDQSxhQUFBO0VBQ0EsZUFBQTtFQXpCQSwyQkFBQTtFQUNBLHNCQUFBO0VBRUEsYUFBQTtFQUVRLG1CQUFBO0VBRUEsdUJBQUE7QUNjWjtBRE1RO0VBQ0ksWUFBQTtBQ0paOztBRFNBO0VBQ0ksa0JBQUE7RUFDQSx5QkFBQTtBQ05KO0FET1E7RUFDSSxlQUFBO0FDTFo7O0FEU0E7RUFDSSw0QkFBQTtFQUNBLGlCQUFBO0VBQ0EsZUFBQTtFQTVDQSwyQkFBQTtFQUNBLHNCQUFBO0VBRUEsYUFBQTtFQUVRLG1CQUFBO0VBRUEsdUJBQUE7QUN1Q1o7O0FERUE7RUFDSSxrQkFBQTtFQUNBLG9CQUFBO0FDQ0o7QURBUTtFQUNJLGVBQUE7RUFDQSxxREFBQTtBQ0VaOztBREVBO0VBQ0ksbUJBQUE7RUFDQSxrQkFBQTtFQUNBLDRCQUFBO0FDQ0o7QURBUTtFQUNJLGVBQUE7RUFDQSxvQkFBQTtBQ0VaOztBRElJO0VBQ0ksWUFBQTtFQUNBLFdBQUE7QUNEUjtBREdJO0VBQ0ksZ0JBQUE7QUNEUjs7QURNQTtFQUNJLG9DQUFBO0FDSEo7QURJUTtFQUNBLG9DQUFBO0FDRlI7QURHUTtFQUNJLGFBQUE7RUFDQSxXQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ0RaO0FESVE7RUFDSSxrQkFBQTtFQUNBLG9DQUFBO0FDRlo7O0FET0E7RUFoR0ksMkJBQUE7RUFDQSxzQkFBQTtFQUVBLGFBQUE7RUFFUSxtQkFBQTtFQUVBLHVCQUFBO0FDNkZaO0FERlE7RUFDSSxnQkFBQTtFQUNBLHVCQUFBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxtQkFBQTtFQUNBLGFBQUE7RUFDQSx1QkFBQTtBQ0laOztBRERBO0VBOUdJLDJCQUFBO0VBQ0Esc0JBQUE7RUFFQSxhQUFBO0VBRVEsbUJBQUE7RUFFQSx1QkFBQTtBQ21IWjtBRFZRO0VBQ0ksaUJBQUE7QUNZWjs7QURSQTtFQUNJLG9DQUFBO0FDV0oiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
